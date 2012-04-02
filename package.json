@@ -1,0 +1,20 @@
+{
+  "author": "Satoshi Ohki <roothybrid7@gmail.com>",
+  "name": "grunt-sandbox",
+  "description": "Grunt sandbox project.",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/roothybrid7/grunt-sandbox.git"
+  },
+  "engines": {
+    "node": "~0.6.14"
+  },
+  "noAnalyze": true,
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.3.2",
+    "grunt-sample": "~0.1.0"
+  },
+  "optionalDependencies": {}
+}

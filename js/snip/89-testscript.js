@@ -3,5 +3,11 @@
  */
 
 $(function() {
-  $('#main').append('89-testscript.jsが読み込まれた模様!!');
+  var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
+  var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
+  var message = '89-testscript.js が組み込まれた模様!!';
+
+  $('<div>' + message + '</div>').appendTo('#main')
+    .css({backgroundColor: '#' + bgColor})
+    .css({color: '#' + color});
 });
