@@ -1,5 +1,79 @@
 /*global module:false*/
 module.exports = function(grunt) {
+  var utils = grunt.utils
+    , task = grunt.task
+    , helper = grunt.helper
+    , file = grunt.file
+    , config = grunt.config
+    , log = grunt.log
+    , os = require('os').platform();
+
+  /**
+   * Compare function.
+   *
+   * @param {*} a A comparable value1.
+   * @param {*} b A comparable value2.
+   * @return {number} The compare result.
+   */
+  var compareFilename = function(a, b) {
+    var numA = parseInt(a, 10), numB = parseInt(b, 10);
+    return numA - numB;
+  };
+
+  /**
+   * Returns the rest of the elements in an array.
+   *
+   * @param {number} index The values of the array that index onward.
+   * @return {Array} The rest array.
+   */
+  grunt.registerHelper('rest', function(arr, index) {
+    if (utils.kindOf(index) !== 'number') {
+      index = 1;
+    }
+    return arr.slice(index);
+  });
+
+  /**
+   * Returns basename.
+   *
+   * @param {string} filepath A file path string.
+   * @param {string=} suffix A remove suffix.
+   * @return {string} basename string.
+   */
+  grunt.registerHelper('basename', function(filepath, suffix) {
+    var base = ''
+      , separator = os.match(/^win/) ? '\\' : '/';
+
+    if (filepath === '.' || filepath === separator) {
+      base = filepath;
+    } else {
+      var entries = filepath && filepath.split(separator);
+      while (entries.length) {
+        if ((base = entries.pop())) break;
+      }
+    }
+
+    if (utils.kindOf(suffix) === 'string' && suffix.length > 0) {
+      base = base.replace(suffix, '');
+    }
+
+    return base;
+  });
+
+  /**
+   * Returns sorted filelist.
+   *
+   * @param {string} patterns A file path wildcard.
+   * @return {string} sorted filelist.
+   */
+  grunt.registerHelper('sort_files', function(patterns) {
+    var files = file.expandFiles(patterns);
+
+    return sortedFiles = utils._.sortBy(files, function(file) {
+      var basename = helper('basename', file);
+      return parseInt(basename, 10);
+    });
+  });
 
   // Project configuration.
   grunt.initConfig({
@@ -49,9 +123,18 @@ module.exports = function(grunt) {
       dist: {
         src: [
           '<banner>',
-          'js/snip/**/*.js'
+          helper('sort_files', 'js/snip/**/*.js')
         ],
         dest: 'dist/<%= pkg.name %>.js'
+      },
+      distStrip: {
+        src: [
+          '<banner>',
+          utils._.map(helper('sort_files', 'js/snip/**/*.js'), function(file) {
+            return '<file_strip_banner:' + file + '>';
+          })
+        ],
+        dest: 'dist/<%= pkg.name %>-strip.js'
       }
     },
     min: {
@@ -98,32 +181,9 @@ module.exports = function(grunt) {
   // Default task.
   grunt.registerTask('default', 'concat min');
 
-  /**
-   * Returns the rest of the elements in an array.
-   *
-   * @param {number} index The values of the array that index onward.
-   * @return {Array} Array.
-   */
-  grunt.registerHelper('rest', function(arr, index) {
-    if (typeof index !== 'number') {
-      index = 1;
-    }
-    return arr.slice(index);
-  });
-
-  /**
-   * Compare function.
-   *
-   * @param {*} a A compared value1.
-   * @param {*} b A compared value2.
-   * @return {number} The compare result.
-   */
-  grunt.registerHelper('sort_filename', function(a, b, condition) {
-    grunt.log.writeln(this.name, this.nameArgs);
-
-    var numA = parseInt(a, 10);
-    var numB = parseInt(b, 10);
-
-    return numA - numB;
+  grunt.registerTask('sort_files_with_printout_test', 'print out sort files.', function() {
+    log.writeln(this.name + ', ' + this.nameArgs);
+    var sortedFiles = helper('sort_files', 'js/snip/**/*.js');
+    log.writeln(helper('concat', sortedFiles));
   });
 };
