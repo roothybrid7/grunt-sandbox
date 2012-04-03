@@ -55,6 +55,18 @@ module.exports = function(grunt) {
       }
     },
     min: {
+      about: {
+        src: ['<banner>', '<config:concat.about.dest>'],
+        dest: 'dist/<%= pkg.name %>-about.min.js'
+      },
+      config: {
+        src: ['<banner>', '<config:concat.config.dest>'],
+        dest: 'dist/<%= pkg.name %>-config.min.js'
+      },
+      dashboard: {
+        src: ['<banner>', '<config:concat.dashboard.dest>'],
+        dest: 'dist/<%= pkg.name %>-dashboard.min.js'
+      },
       dist: {
         src: ['<banner>', '<config:concat.dist.dest>'],
         dest: 'dist/<%= pkg.name %>.min.js'
@@ -62,7 +74,7 @@ module.exports = function(grunt) {
     },
     watch: {
       files: '<config:lint.files>',
-      tasks: 'lint qunit'
+      tasks: 'lint'
     },
     jshint: {
       options: {
