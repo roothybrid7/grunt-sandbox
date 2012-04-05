@@ -22,70 +22,98 @@
             return '"' + this + '"';
         }; Licensed  */
 
+/**
+ * 3-testscript.js - grunt test script.
+ */
+
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
-  var message = '3-testscript.js が組み込まれた模様!!';
+  var message = '3-testscript.js が読み込まれた模様!!';
 
   $('<div>' + message + '</div>').appendTo('#main')
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
 
+/**
+ * 4-testscript.js - grunt test script.
+ */
+
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
-  var message = '4-testscript.js が組み込まれた模様!!';
+  var message = '4-testscript.js が読み込まれた模様!!';
 
   $('<div>' + message + '</div>').appendTo('#main')
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
 
+/**
+ * 5-testscript.js - grunt test script.
+ */
+
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
-  var message = '5-testscript.js が組み込まれた模様!!';
+  var message = '5-testscript.js が読み込まれた模様!!';
 
   $('<div>' + message + '</div>').appendTo('#main')
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
 
+/**
+ * 6-testscript.js - grunt test script.
+ */
+
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
-  var message = '6-testscript.js が組み込まれた模様!!';
+  var message = '6-testscript.js が読み込まれた模様!!';
 
   $('<div>' + message + '</div>').appendTo('#main')
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
 
+/**
+ * 7-testscript.js - grunt test script.
+ */
+
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
-  var message = '7-testscript.js が組み込まれた模様!!';
+  var message = '7-testscript.js が読み込まれた模様!!';
 
   $('<div>' + message + '</div>').appendTo('#main')
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
 
+/**
+ * 8-testscript.js - grunt test script.
+ */
+
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
-  var message = '8-testscript.js が組み込まれた模様!!';
+  var message = '8-testscript.js が読み込まれた模様!!';
 
   $('<div>' + message + '</div>').appendTo('#main')
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
 
+/**
+ * 9-testscript.js - grunt test script.
+ */
+
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
-  var message = '9-testscript.js が組み込まれた模様!!';
+  var message = '9-testscript.js が読み込まれた模様!!';
 
   $('<div>' + message + '</div>').appendTo('#main')
     .css({backgroundColor: '#' + bgColor})

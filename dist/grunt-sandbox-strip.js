@@ -22,10 +22,6 @@
             return '"' + this + '"';
         }; Licensed  */
 
-/**
- * 0-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -35,10 +31,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 1-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -50,10 +42,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 2-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -63,10 +51,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 3-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -78,10 +62,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 4-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -91,10 +71,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 5-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -106,10 +82,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 6-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -119,10 +91,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 7-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -134,10 +102,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 8-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -147,10 +111,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 9-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -162,10 +122,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 10-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -175,10 +131,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 11-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -190,10 +142,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 12-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -203,10 +151,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 13-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -218,10 +162,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 14-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -231,10 +171,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 15-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -246,10 +182,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 16-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -259,10 +191,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 17-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -274,10 +202,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 18-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -287,10 +211,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 19-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -302,10 +222,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 20-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -315,10 +231,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 21-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -330,10 +242,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 22-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -343,10 +251,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 23-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -358,10 +262,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 24-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -371,10 +271,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 25-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -386,10 +282,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 26-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -399,10 +291,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 27-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -414,10 +302,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 28-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -427,10 +311,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 29-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -442,10 +322,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 30-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -455,10 +331,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 31-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -470,10 +342,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 32-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -483,10 +351,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 33-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -498,10 +362,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 34-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -511,10 +371,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 35-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -526,10 +382,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 36-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -539,10 +391,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 37-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -554,10 +402,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 38-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -567,10 +411,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 39-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -582,10 +422,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 40-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -595,10 +431,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 41-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -610,10 +442,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 42-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -623,10 +451,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 43-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -638,10 +462,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 44-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -651,10 +471,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 45-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -666,10 +482,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 46-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -679,10 +491,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 47-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -694,10 +502,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 48-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -707,10 +511,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 49-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -722,10 +522,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 50-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -735,10 +531,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 51-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -750,10 +542,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 52-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -763,10 +551,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 53-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -778,10 +562,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 54-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -791,10 +571,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 55-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -806,10 +582,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 56-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -819,10 +591,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 57-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -834,10 +602,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 58-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -847,10 +611,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 59-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -862,10 +622,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 60-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -875,10 +631,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 61-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -890,10 +642,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 62-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -903,10 +651,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 63-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -918,10 +662,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 64-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -931,10 +671,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 65-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -946,10 +682,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 66-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -959,10 +691,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 67-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -974,10 +702,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 68-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -987,10 +711,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 69-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -1002,10 +722,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 70-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -1015,10 +731,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 71-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -1030,10 +742,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 72-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -1043,10 +751,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 73-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -1058,10 +762,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 74-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -1071,10 +771,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 75-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -1086,10 +782,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 76-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -1099,10 +791,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 77-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -1114,10 +802,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 78-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -1127,10 +811,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 79-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -1142,10 +822,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 80-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -1155,10 +831,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 81-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -1170,10 +842,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 82-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -1183,10 +851,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 83-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -1198,10 +862,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 84-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -1211,10 +871,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 85-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -1226,10 +882,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 86-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -1239,10 +891,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 87-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -1254,10 +902,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 88-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -1267,10 +911,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 89-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -1282,10 +922,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 90-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -1295,10 +931,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 91-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -1310,10 +942,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 92-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -1323,10 +951,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 93-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -1338,10 +962,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 94-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -1351,10 +971,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 95-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -1366,10 +982,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 96-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -1379,10 +991,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 97-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
@@ -1394,10 +1002,6 @@ $(function() {
     .css({color: '#' + color});
 });
 
-/**
- * 98-testscript.js - grunt test script.
- */
-
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
   var color = (parseInt(bgColor, 16) ^ 0xffffff).toString(16);
@@ -1407,10 +1011,6 @@ $(function() {
     .css({backgroundColor: '#' + bgColor})
     .css({color: '#' + color});
 });
-
-/**
- * 99-testscript.js - grunt test script.
- */
 
 $(function() {
   var bgColor = Math.floor(Math.random() * 0xffffff).toString(16);
