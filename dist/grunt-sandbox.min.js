@@ -1,4 +1,4 @@
-/*! grunt-sandbox - v0.0.0 - 2012-04-03
+/*! grunt-sandbox - v0.0.0 - 2012-04-05
 * Copyright (c) 2012 function () {
 
 // If the string looks like an identifier, then we can return it as is.
