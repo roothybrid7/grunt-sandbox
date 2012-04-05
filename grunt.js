@@ -23,7 +23,8 @@ module.exports = function(grunt) {
   /**
    * Returns the rest of the elements in an array.
    *
-   * @param {number} index The values of the array that index onward.
+   * @param {Array} arr A source array.
+   * @param {number=} index The values of the array that index onward.
    * @return {Array} The rest array.
    */
   grunt.registerHelper('rest', function(arr, index) {
